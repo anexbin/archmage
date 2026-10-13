@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated artifacts
+data/embeddings/*.pkl
+
+# Logs (keep folder structure, ignore contents)
+logs/audit/*
+logs/sessions/*
+!logs/audit/.gitkeep
+!logs/sessions/.gitkeep
+
+# AI derivative work
+reference/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
